@@ -56,7 +56,7 @@ function setActive() {
     }
     timer = setTimeout(function () {
         nav.classList.add("navbar-hide");
-    }, 1000)
+    }, 1500)
 }
 
 let navBar = document.querySelectorAll('.navList');

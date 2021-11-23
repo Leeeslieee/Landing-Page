@@ -13,6 +13,6 @@
 }
 
 .navbar-hide{
-    left: -150px;
+    opacity: 0;
 }
 

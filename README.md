@@ -1,6 +1,6 @@
 <h1>Landing Page</h1>
 <br>
-<h2>Project Description:</h2>
+<h2>Project Description</h2>
 <p>This project is built to practice how to integrate JavaScript with HTML and CSS to make the web page interactive and dynamic.</p>
 <br>
 <h2>Usage</h2>
