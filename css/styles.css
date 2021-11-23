@@ -2,18 +2,6 @@
 @import 'component.css';
 @import 'layout.css';
 
-/*Different flex direction of alternative section*/
-.flow{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.flow-reverse{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 /*Styling for active section and active nav bar item*/
 .active-view{
     background: #beb732; 
@@ -24,4 +12,7 @@
     background:#ecfeaa;
 }
 
+.navbar-hide{
+    left: -150px;
+}
 
