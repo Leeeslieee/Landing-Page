@@ -1,0 +1,21 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&family=Nunito:wght@300;400;800&family=Open+Sans&display=swap');
+
+/*Typography*/
+*{
+    font-family: Nunito;
+}
+
+.li_1st{
+    font-weight: bold;
+}
+
+/*Color*/
+body{
+    background: #E2DE84;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
