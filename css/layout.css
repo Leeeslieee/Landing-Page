@@ -1,7 +1,138 @@
+/*Responsive layout*/
+
+@media(max-width: 700px){
+    .headTitle{
+        margin: 10% auto auto 10%;
+    }
+    /*navigation display*/
+    #nav-ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 300px 80% 0 0;
+        padding: 0;
+        right: 0;
+        position: absolute;
+    }
+    /*landing page display*/
+    #landingPage{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        grid-template-areas: "top"
+                            "bottom";
+    }
+    #landingPageTitle{
+        grid-area: top;
+        text-align: center;
+    }
+    #landingPageTextBox{
+        grid-area: bottom;
+    }
+    /*section display*/
+    .flow{
+        display: flex;
+        flex-direction: column;
+        
+    }  
+    .flow-reverse{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        max-height: 300px;
+    }
+}
+
+@media(min-width: 700px) and (max-width: 1200px){
+    .headTitle{
+        margin: 6% auto auto 20%;
+    }
+    /*navigation display*/
+    #nav-ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 110px 70px 0 0;
+        padding: 0;
+        right: 0;
+        position: absolute;
+    }
+    /*landing page display*/
+    #landingPage{
+        display: grid;
+        grid-template-rows: 20% 80%;
+        grid-template-areas: "top"
+                            "bottom";
+    }
+    #landingPageTitle{
+        grid-area: top;
+        text-align: center;
+    }
+    #landingPageTextBox{
+        grid-area: bottom;
+    }
+    /*section display*/
+    .flow{
+        display: flex;
+        flex-direction: column;
+        
+    }  
+    .flow-reverse{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        max-height: 300px;
+    }
+}
+
+@media(min-width: 1200px){
+    .headTitle{
+        margin: 4% auto auto 30%;
+    }
+    /*navigation display*/
+    #nav-ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 110px 70px 0 0;
+        padding: 0;
+        right: 0;
+        position: absolute;
+    }
+    /*landing page display*/
+    #landingPage{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 20% 80%;
+        grid-template-areas: "top1 top2"
+                            "bottom1 bottom2";
+    }
+    #landingPageTitle{
+        grid-area: top2;
+    }
+    #landingPageTextBox{
+        grid-area: bottom2;
+    }
+    /*section display*/
+    .flow{
+        display: flex;
+        flex-direction: row;
+        
+    }  
+    .flow-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    img{
+        max-height: 300px;
+    }
+}
+
 .container{
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(600px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 25px;
     margin: 150px 60px auto 60px;
 }
 

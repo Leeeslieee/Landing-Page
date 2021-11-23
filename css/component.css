@@ -9,21 +9,10 @@ header{
     display: flex;
 }
 .headTitle{
-    margin-left: 30%;
-    margin-top: 4%;
     color: white;
 }
 
 /*Navigation Styling*/
-#nav-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin: 110px 70px 0 0;
-    padding: 0;
-    right: 0;
-    position: absolute;
-}
 #nav-ul:hover{
     cursor: pointer;
 }
@@ -42,18 +31,9 @@ header{
 #landingPage{
     background: url(../img/CatLitterBox.jpg);
     background-size: cover;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 20% 80%;
-    grid-template-areas: "top1 top2"
-                        "bottom1 bottom2";
 }
 
-#landingPageTitle{
-    grid-area: top2;
-}
 #landingPageTextBox{
-    grid-area: bottom2;
     text-align: justify;
     padding-right: 10px;
     background: rgba(255,255,255,0.5);
@@ -64,6 +44,6 @@ header{
 img{
     object-fit: cover;
     height: 100%;
-    max-height: 300px;
     margin: 10px;
+    border-radius: 10px;
 }
